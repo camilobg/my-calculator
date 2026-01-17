@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+
+body{
+    background-color: gray;
+    text-align: center;
+}
+
+.calculator{
+    background-color: rgb(255, 151, 23);
+    margin: 12px auto;
+    padding: 32px 16px;
+    width: 700px;
+    height: 950px;
+    border: rgb(162, 91, 18) 12px solid;
+    border-radius: 50px;
+    
+}
+
+.calculator-margin{
+    background-color: rgb(255, 183, 39);
+    padding: 16px;
+    width: 668px;
+    height: 926px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel{
+    width: 100%;
+    height: 116px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.ce{
+    width: 80px;
+    height: 80px;
+    margin-left: 16px;
+    background-color: red;
+    border: orange 2px solid;
+    border-radius: 100%;
+    box-shadow: 12x 12px 1px black;
+    align-content: center;
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    
+}
+
+.cells{
+    background-color: rgb(113, 104, 92);
+    width: 40%;
+    height: 70%;
+    border: rgb(168, 109, 0) 4px solid;
+    border-radius: 13px;
+    padding: 1px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell{
+    border: rgb(168, 109, 0) 1px solid;
+    margin: 0px;
+    width: 20%;
+    height:100%;
+}
+
+.screen{
+    width: 636px;
+    height: 110px;
+    margin: 16px auto;
+    background-color: rgb(121, 204, 251);
+    border: rgb(98, 48, 0) 8px solid;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+.inner-screen{
+    background-color: rgb(185, 242, 255);
+    margin: 1% auto;
+    width: 95%;
+    height: 85%;
+    border-radius: 1px;
+}
+
+.keyboard{
+    background-color: rgb(255, 199, 87);
+    border: rgb(197, 158, 78) 2px solid;
+    border-radius: 40px;
+    box-shadow: 4px 4px 2px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.key{
+    width: 125px;
+    height: 125px;
+    margin: 8px;
+    background-color: rgb(253, 221, 158);
+    border: rgb(98, 48, 0) 8px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 1px black;
+}
+
+.key:hover{
+    filter: brightness(95%);
+    box-shadow: 1px 1px 3px black;
+}
+
+h1{
+    margin: 0px;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    height: 100%;
+    text-align: end;
+}
+
+p{
+    margin: 0px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+
+}
