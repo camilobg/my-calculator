@@ -43,9 +43,9 @@ body{
     height: 80px;
     margin-left: 16px;
     background-color: red;
-    border: orange 2px solid;
+    border: orange 4px solid;
     border-radius: 100%;
-    box-shadow: 12x 12px 1px black;
+    box-shadow: 4px 4px 3px black;
     align-content: center;
 
     font-family: "Archivo Black", sans-serif;
@@ -116,11 +116,11 @@ body{
     justify-content: center;
     align-items: center;
     box-shadow: 4px 4px 1px black;
+    cursor: pointer;
 }
 
 .key:hover{
     filter: brightness(95%);
-    box-shadow: 1px 1px 3px black;
 }
 
 h1{
@@ -131,6 +131,7 @@ h1{
     font-size: 90px;
     height: 100%;
     text-align: end;
+    user-select: none;
 }
 
 p{
@@ -139,5 +140,5 @@ p{
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
-
+    user-select: none;
 }
