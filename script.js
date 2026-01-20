@@ -10,6 +10,7 @@ function operate(a, b ,operator){
     }else if(operator == "/"){
         ans = a / b
     }
+    if(b == 0 && operator == "/") return "Error"
     return ans
 }
 
@@ -119,6 +120,8 @@ for(let key of keys){
             firstOperand = ans
             newOperator = false
             erase = true
+
+            ans = 0
             //operatorStack = ""
         }
     })
